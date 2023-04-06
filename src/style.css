@@ -405,18 +405,14 @@ body {
     height: 100vh;
     -webkit-backdrop-filter: blur(0.5rem);
             backdrop-filter: blur(0.5rem);
-    display: flex;
     flex-direction: column !important;
     padding-top: 5rem;
-    transition: 0.5s;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -o-transition: 0.5s;
     z-index: 2;
+    display: none;
   }
   .nav-bar .links.active {
     right: 0;
+    display: flex;
   }
   .nav-bar .links-btn {
     display: block !important;
