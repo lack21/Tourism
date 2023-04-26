@@ -374,8 +374,12 @@ body {
 
 // For Smaller Devices
 @media screen and (max-width: 1000px) {
+  .header {
+    padding: 0 5% !important;
+  }
+
   .header.first {
-    place-content: flex-end;
+    place-content: flex-end center;
     padding-bottom: 5rem;
     text-align: center;
 
@@ -399,7 +403,7 @@ body {
   .header.second {
     grid-template-columns: 1fr;
     text-align: center;
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
 
     .destination-image {
       width: 380px;
@@ -407,26 +411,23 @@ body {
 
     .text {
       margin: auto;
-      padding-bottom: 2rem;
+      padding-bottom: 2.5rem;
     }
 
     .bottom-content {
       justify-content: center;
-      padding-top: 2rem;
+      padding-top: 2.5rem;
     }
   }
 
   .header.third {
     place-content: center;
     text-align: center;
-    isolation: isolate;
 
     .crew-image {
+      position: static;
       width: 300px;
-      right: calc(50% - 150px);
-      opacity: 0.8;
-      pointer-events: none;
-      z-index: -1;
+      margin: 2.5rem auto 0;
     }
 
     .buttons {
@@ -444,11 +445,11 @@ body {
 
   .header.fourth {
     text-align: center;
-    isolation: isolate;
 
     .technology-image {
       width: 300px;
-      z-index: -1;
+      margin: 2.5rem auto 0;
+      position: static;
     }
 
     .left-side {
@@ -462,10 +463,6 @@ body {
         text-shadow: 0 0 1rem $black;
       }
     }
-  }
-
-  .header {
-    padding: 0 1rem !important;
   }
 }
 
