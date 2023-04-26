@@ -375,7 +375,7 @@ body {
 // For Smaller Devices
 @media screen and (max-width: 1000px) {
   .header.first {
-    place-content: center;
+    place-content: flex-end;
     padding-bottom: 5rem;
     text-align: center;
 
@@ -383,16 +383,12 @@ body {
       font-size: 7.5rem;
     }
 
-    .text {
-      padding-bottom: 3.5rem;
-    }
-
     .explore-btn {
+      position: static;
       width: 200px;
       height: 200px;
       font-size: 1.4rem;
-      bottom: 2rem;
-      left: calc(50% - 100px);
+      margin: 1.5rem auto;
 
       &:hover {
         box-shadow: 0 0 0 2rem hsla(0, 0, 100%, 0.5);
