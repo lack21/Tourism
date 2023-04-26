@@ -383,6 +383,10 @@ body {
       font-size: 7.5rem;
     }
 
+    .text {
+      padding-bottom: 3.5rem;
+    }
+
     .explore-btn {
       width: 200px;
       height: 200px;
@@ -476,8 +480,8 @@ body {
     .links {
       position: fixed;
       top: -2rem;
-      right: -200px;
-      width: 200px;
+      right: -220px;
+      width: 220px;
       height: 100vh;
       backdrop-filter: blur(0.5rem);
       flex-direction: column !important;

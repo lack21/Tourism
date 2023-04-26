@@ -324,6 +324,9 @@ body {
   .header.first .title {
     font-size: 7.5rem;
   }
+  .header.first .text {
+    padding-bottom: 3.5rem;
+  }
   .header.first .explore-btn {
     width: 200px;
     height: 200px;
@@ -400,8 +403,8 @@ body {
   .nav-bar .links {
     position: fixed;
     top: -2rem;
-    right: -200px;
-    width: 200px;
+    right: -220px;
+    width: 220px;
     height: 100vh;
     -webkit-backdrop-filter: blur(0.5rem);
             backdrop-filter: blur(0.5rem);
