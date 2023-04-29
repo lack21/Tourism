@@ -376,6 +376,10 @@ body {
 @media screen and (max-width: 1000px) {
   .header {
     padding: 0 5% !important;
+
+    .about-text {
+      padding-top: 10rem;
+    }
   }
 
   .header.first {

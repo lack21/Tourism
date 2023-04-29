@@ -319,6 +319,9 @@ body {
   .header {
     padding: 0 5% !important;
   }
+  .header .about-text {
+    padding-top: 10rem;
+  }
   .header.first {
     place-content: flex-end center;
     padding-bottom: 5rem;
