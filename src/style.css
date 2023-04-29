@@ -448,6 +448,9 @@ body {
   .header.second .bottom-content {
     padding-bottom: 2rem;
   }
+  .header.second .about-text {
+    padding-top: 2.5rem;
+  }
   .header.fourth .techno-btn {
     width: 70px !important;
     height: 70px !important;
